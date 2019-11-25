@@ -1,10 +1,11 @@
 <template>
-  <div class="wrapper">7777777</div>
+  <div class="wrapper">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
   components: {},
   props: {},
   data() {
@@ -13,9 +14,7 @@ export default {
   watch: {},
   computed: {},
   methods: {},
-  created() {
-    console.log(44)
-  },
+  created() {},
   mounted() {}
 }
 </script>
