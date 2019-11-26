@@ -1,5 +1,7 @@
 <template>
-  <div class="wrapper"></div>
+  <div class="wrapper">
+    header
+  </div>
 </template>
 
 <script>
@@ -7,9 +9,7 @@ export default {
   components: {},
   props: {},
   data() {
-    return {
-      activeName: 'first'
-    }
+    return {}
   },
   watch: {},
   computed: {},
@@ -18,10 +18,4 @@ export default {
   mounted() {}
 }
 </script>
-<style lang="scss" scoped>
-.wrapper {
-  span {
-    color: red;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

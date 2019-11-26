@@ -1,6 +1,8 @@
 <template>
   <div class="wrapper">
+    <b-header></b-header>
     <router-view></router-view>
+    <b-footer></b-footer>
   </div>
 </template>
 

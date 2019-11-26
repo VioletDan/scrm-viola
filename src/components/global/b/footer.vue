@@ -1,10 +1,11 @@
 <template>
-  <div class="wrapper">7777777</div>
+  <div class="wrapper">
+    footer
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
   components: {},
   props: {},
   data() {
@@ -13,13 +14,12 @@ export default {
   watch: {},
   computed: {},
   methods: {},
-  created() {
-    console.log(44)
-  },
+  created() {},
   mounted() {}
 }
 </script>
 <style lang="scss" scoped>
 .wrapper {
+  padding-top: 30px;
 }
 </style>
