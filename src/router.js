@@ -12,11 +12,17 @@ const router = new Router({
   routes: [
     {
       path:'/',
-      redirect:'main/home',
+      redirect:'/login',
       meta:{
         title:'viola'
       }
-    },{
+    },
+    {
+      path:'/login',
+      name:'login',
+      component:loadView('login','index')
+    },
+    {
       path:'/main',
       name:'main',
       redirect:'/main/home',
