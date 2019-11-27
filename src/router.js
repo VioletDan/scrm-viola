@@ -48,7 +48,7 @@ router.beforeEach((to,from,next)=>{
 })
 
 router.afterEach((to, from) => {
-  Loading.close()
+  Loading.service().close()
 })
 
 export default router
